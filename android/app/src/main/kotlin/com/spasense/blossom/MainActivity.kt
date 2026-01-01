@@ -1,4 +1,4 @@
-package com.example.blossom_app
+package com.spasense.blossom
 
 import io.flutter.embedding.android.FlutterActivity
 
