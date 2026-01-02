@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'admin_dashboard_page.dart';
 import 'admin_bookings_page.dart';
 import 'admin_users_page.dart';
+import 'admin_marketing_page.dart';
+import 'admin_services_page.dart';
+import 'admin_settings_page.dart';
 
 class AdminShell extends StatefulWidget {
   final String title;
@@ -19,7 +22,9 @@ class _AdminShellState extends State<AdminShell> {
     const AdminDashboardPage(),
     const AdminBookingsPage(),
     const AdminUsersPage(),
-    // Add more pages as needed: Services, Staff, Marketing, Settings
+    const AdminMarketingPage(),
+    const AdminServicesPage(),
+    const AdminSettingsPage(),
   ];
 
   void _onItemTapped(int index) {
