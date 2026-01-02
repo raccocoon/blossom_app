@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../services/app_routes.dart';
+import '../auth/signup_name_email_page.dart';
 
 // Onboarding data model
 class OnboardingPageData {
@@ -224,7 +225,7 @@ class SignUpButton extends StatelessWidget {
       height: 48,
       child: ElevatedButton(
         onPressed: () {
-          Navigator.pushNamed(context, AppRoutes.signup);
+          Navigator.pushNamed(context, SignUpPage.route);
         },
         style: ElevatedButton.styleFrom(
           backgroundColor: const Color(0xFF6440FE),

@@ -9,4 +9,10 @@ class AppRoutes {
   static const String profile = '/profile';
   static const String staffHome = '/staff';
   static const String adminDashboard = '/admin';
+
+  // Auth routes
+  static const String enterMobile = '/enter-mobile';
+  static const String verifyOtp = '/verify-otp';
+  static const String otpVerified = '/otp-verified';
+  static const String signupComplete = '/signup-complete';
 }
